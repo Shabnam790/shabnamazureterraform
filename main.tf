@@ -11,10 +11,7 @@ provider "azurerm"{
 }
 
 
-resource "azurerm_resource_group" "rg_shabnam_dev"{
-    name=var.dev_var
-    location="central india"
-}
+
 
 resource "azurerm_resource_group" "rg_Shabnam_qa" {
   name     = var.qa_var
