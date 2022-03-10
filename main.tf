@@ -10,6 +10,10 @@ provider "azurerm"{
     features{}
 }
 
+resource "azurerm_resource_group" "rg_shabnam_dev"{
+    name=var.dev_var
+    location="central india"
+}
 
 
 
