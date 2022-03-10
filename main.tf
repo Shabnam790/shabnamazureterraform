@@ -16,7 +16,6 @@ resource "azurerm_resource_group" "rg_shabnam_dev"{
 }
 
 
-
 resource "azurerm_resource_group" "rg_Shabnam_qa" {
   name     = var.qa_var
   location = "Central India"
